@@ -27,7 +27,51 @@
       "name": "КартДоступE",
       "modelName": "i-i-s-prilozhenie-42-карт-доступ",
       "attrs": [],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Ответственный",
+          "lookupValueField": "ответственный",
+          "relationName": "СправСотр",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправСотр.СправДолж",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должность",
+                  "caption": "Должность",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справДолж",
+              "relatedTo": "i-i-s-prilozhenie-42-справ-долж",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Ответственный",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Ответственный",
+          "name": "справСотр",
+          "relatedTo": "i-i-s-prilozhenie-42-справ-сотр",
+          "inverse": null
+        }
+      ],
       "hasMany": [
         {
           "projectionName": "БазаДанныхE",
@@ -42,7 +86,51 @@
       "name": "КартДоступL",
       "modelName": "i-i-s-prilozhenie-42-карт-доступ",
       "attrs": [],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправСотр",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправСотр.СправДолж",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должность",
+                  "caption": "Должность",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справДолж",
+              "relatedTo": "i-i-s-prilozhenie-42-справ-долж",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Ответственный",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Ответственный",
+          "name": "справСотр",
+          "relatedTo": "i-i-s-prilozhenie-42-справ-сотр",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

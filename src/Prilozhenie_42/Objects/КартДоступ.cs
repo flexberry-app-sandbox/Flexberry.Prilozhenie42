@@ -29,10 +29,16 @@ namespace IIS.Prilozhenie_42
     [AutoAltered()]
     [Caption("База Данных")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("КартДоступE", new string[0])]
+    [View("КартДоступE", new string[] {
+            "СправСотр as \'Ответственный\'",
+            "СправСотр.Фио as \'Ответственный\'",
+            "СправСотр.СправДолж.Должность as \'Должность\'"})]
     [AssociatedDetailViewAttribute("КартДоступE", "БазаДанных", "БазаДанныхE", true, "", "База Данных", true, new string[] {
             ""})]
-    [View("КартДоступL", new string[0])]
+    [MasterViewDefineAttribute("КартДоступE", "СправСотр", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Ответственный")]
+    [View("КартДоступL", new string[] {
+            "СправСотр.Фио as \'Ответственный\'",
+            "СправСотр.СправДолж.Должность as \'Должность\'"})]
     public class КартДоступ : ICSSoft.STORMNET.DataObject
     {
         

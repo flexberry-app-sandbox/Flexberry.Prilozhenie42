@@ -30,9 +30,12 @@ namespace IIS.Prilozhenie_42
     [Caption("Справочник Сотрудники")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправСотрE", new string[] {
-            "Фио as \'Сотрудник\'"})]
+            "Фио as \'Сотрудник\'",
+            "СправДолж as \'Должность\'",
+            "СправДолж.Должность as \'Должность\'"})]
     [View("СправСотрL", new string[] {
-            "Фио as \'Сотрудник\'"})]
+            "Фио as \'Сотрудник\'",
+            "СправДолж.Должность as \'Должность\'"})]
     public class СправСотр : ICSSoft.STORMNET.DataObject
     {
         

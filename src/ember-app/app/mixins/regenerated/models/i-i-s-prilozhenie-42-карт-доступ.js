@@ -28,12 +28,23 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КартДоступE', 'i-i-s-prilozhenie-42-карт-доступ', {
+    справСотр: belongsTo('i-i-s-prilozhenie-42-справ-сотр', 'Ответственный', {
+      фио: attr('Ответственный', { index: 1 }),
+      справДолж: belongsTo('i-i-s-prilozhenie-42-справ-долж', '', {
+        должность: attr('Должность', { index: 2 })
+      }, { index: -1, hidden: true })
+    }, { index: 0, displayMemberPath: 'ответственный' }),
     базаДанных: hasMany('i-i-s-prilozhenie-42-база-данных', 'База Данных', {
       номерКарты: attr('Номер Карты', { index: 0 })
     })
   });
 
   modelClass.defineProjection('КартДоступL', 'i-i-s-prilozhenie-42-карт-доступ', {
-    
+    справСотр: belongsTo('i-i-s-prilozhenie-42-справ-сотр', 'Ответственный', {
+      фио: attr('Ответственный', { index: 0 }),
+      справДолж: belongsTo('i-i-s-prilozhenie-42-справ-долж', '', {
+        должность: attr('Должность', { index: 1 })
+      }, { index: -1, hidden: true })
+    }, { index: -1, hidden: true })
   });
 };

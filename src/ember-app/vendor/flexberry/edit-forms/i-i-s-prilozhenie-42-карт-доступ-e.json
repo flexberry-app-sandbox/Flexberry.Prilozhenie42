@@ -1,5 +1,14 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СправСотр",
+      "projection": "СправСотрL",
+      "detailModelName": null
+    }
+  ],
   "external": false,
   "caption": "Карт доступ",
   "name": "IISPrilozhenie_42КартДоступE",
