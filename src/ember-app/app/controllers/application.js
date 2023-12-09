@@ -28,25 +28,24 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-42-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.title'),
-            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.title'),
-            icon: 'calendar',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.title'),
-            icon: 'file',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.title'),
-            icon: 'folder',
+            icon: 'briefcase',
             children: null
           }]
         }
