@@ -16,7 +16,22 @@
       "ordered": false
     }
   ],
-  "belongsTo": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классУч",
+      "relatedTo": "i-i-s-prilozhenie-42-класс-уч",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "справРод",
+      "relatedTo": "i-i-s-prilozhenie-42-справ-род",
+      "inverse": null
+    }
+  ],
   "hasMany": [],
   "projections": [
     {
@@ -30,7 +45,50 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "КлассУч",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "назв",
+              "caption": "Класс Ученика",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "Класс Ученика",
+          "name": "классУч",
+          "relatedTo": "i-i-s-prilozhenie-42-класс-уч",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправРод",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио Родителя",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "default",
+          "caption": "Фио Родителя",
+          "name": "справРод",
+          "relatedTo": "i-i-s-prilozhenie-42-справ-род",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -44,7 +102,50 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "КлассУч",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "назв",
+              "caption": "Класс Ученика",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Класс Ученика",
+          "name": "классУч",
+          "relatedTo": "i-i-s-prilozhenie-42-класс-уч",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправРод",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио Родителя",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фио Родителя",
+          "name": "справРод",
+          "relatedTo": "i-i-s-prilozhenie-42-справ-род",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

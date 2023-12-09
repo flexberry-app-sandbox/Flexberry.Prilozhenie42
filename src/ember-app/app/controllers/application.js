@@ -28,37 +28,37 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-42-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.title'),
-            icon: 'list',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.title'),
-            icon: 'chart line',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.title'),
-            icon: 'calendar',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-класс-уч-l.title'),
-            icon: 'folder open',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-род-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-род-l.title'),
-            icon: 'calendar',
+            icon: 'paperclip',
             children: null
           }]
         }

@@ -28,6 +28,10 @@ CREATE TABLE [СправУч] (
 
 	 [Фио] VARCHAR(255)  NULL,
 
+	 [КлассУч] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СправРод] UNIQUEIDENTIFIER  NOT NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 

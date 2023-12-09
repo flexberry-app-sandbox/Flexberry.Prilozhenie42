@@ -33,6 +33,10 @@ CREATE TABLE "СправУч"
 
 	"Фио" NVARCHAR2(255) NULL,
 
+	"СправРод" RAW(16) NOT NULL,
+
+	"КлассУч" RAW(16) NOT NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 
@@ -287,6 +291,16 @@ ALTER TABLE "СправСотр"
 	ADD CONSTRAINT "СправСотр_FСп_8900" FOREIGN KEY ("СправДолж") REFERENCES "СправДолж" ("primaryKey");
 
 CREATE INDEX "СправСотр_IСп_1094" on "СправСотр" ("СправДолж");
+
+ALTER TABLE "СправУч"
+	ADD CONSTRAINT "СправУч_FСпра_6148" FOREIGN KEY ("СправРод") REFERENCES "СправРод" ("primaryKey");
+
+CREATE INDEX "СправУч_IСпра_3797" on "СправУч" ("СправРод");
+
+ALTER TABLE "СправУч"
+	ADD CONSTRAINT "СправУч_FКлас_5016" FOREIGN KEY ("КлассУч") REFERENCES "КлассУч" ("primaryKey");
+
+CREATE INDEX "СправУч_IКлассУч" on "СправУч" ("КлассУч");
 
 ALTER TABLE "БазаДанных"
 	ADD CONSTRAINT "БазаДанных_FС_3615" FOREIGN KEY ("СправУч") REFERENCES "СправУч" ("primaryKey");

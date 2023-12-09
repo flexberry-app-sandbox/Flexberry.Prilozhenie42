@@ -30,13 +30,23 @@ namespace IIS.Prilozhenie_42
     [Caption("Справочник Учеников")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправУчE", new string[] {
-            "Фио as \'Фио\'"})]
+            "Фио as \'Фио\'",
+            "КлассУч as \'Класс Ученика\'",
+            "КлассУч.Назв as \'Класс Ученика\'",
+            "СправРод as \'Фио Родителя\'",
+            "СправРод.Фио as \'Фио Родителя\'"})]
     [View("СправУчL", new string[] {
-            "Фио as \'Фио\'"})]
+            "Фио as \'Фио\'",
+            "КлассУч.Назв as \'Класс Ученика\'",
+            "СправРод.Фио as \'Фио Родителя\'"})]
     public class СправУч : ICSSoft.STORMNET.DataObject
     {
         
         private string fФио;
+        
+        private IIS.Prilozhenie_42.СправРод fСправРод;
+        
+        private IIS.Prilozhenie_42.КлассУч fКлассУч;
         
         // *** Start programmer edit section *** (СправУч CustomMembers)
 
@@ -72,6 +82,74 @@ namespace IIS.Prilozhenie_42
                 // *** Start programmer edit section *** (СправУч.Фио Set end)
 
                 // *** End programmer edit section *** (СправУч.Фио Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Справ уч.
+        /// </summary>
+        // *** Start programmer edit section *** (СправУч.КлассУч CustomAttributes)
+
+        // *** End programmer edit section *** (СправУч.КлассУч CustomAttributes)
+        [PropertyStorage(new string[] {
+                "КлассУч"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie_42.КлассУч КлассУч
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СправУч.КлассУч Get start)
+
+                // *** End programmer edit section *** (СправУч.КлассУч Get start)
+                IIS.Prilozhenie_42.КлассУч result = this.fКлассУч;
+                // *** Start programmer edit section *** (СправУч.КлассУч Get end)
+
+                // *** End programmer edit section *** (СправУч.КлассУч Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СправУч.КлассУч Set start)
+
+                // *** End programmer edit section *** (СправУч.КлассУч Set start)
+                this.fКлассУч = value;
+                // *** Start programmer edit section *** (СправУч.КлассУч Set end)
+
+                // *** End programmer edit section *** (СправУч.КлассУч Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Справ уч.
+        /// </summary>
+        // *** Start programmer edit section *** (СправУч.СправРод CustomAttributes)
+
+        // *** End programmer edit section *** (СправУч.СправРод CustomAttributes)
+        [PropertyStorage(new string[] {
+                "СправРод"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie_42.СправРод СправРод
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СправУч.СправРод Get start)
+
+                // *** End programmer edit section *** (СправУч.СправРод Get start)
+                IIS.Prilozhenie_42.СправРод result = this.fСправРод;
+                // *** Start programmer edit section *** (СправУч.СправРод Get end)
+
+                // *** End programmer edit section *** (СправУч.СправРод Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СправУч.СправРод Set start)
+
+                // *** End programmer edit section *** (СправУч.СправРод Set start)
+                this.fСправРод = value;
+                // *** Start programmer edit section *** (СправУч.СправРод Set end)
+
+                // *** End programmer edit section *** (СправУч.СправРод Set end)
             }
         }
         

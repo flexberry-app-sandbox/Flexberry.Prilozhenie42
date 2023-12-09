@@ -19,6 +19,8 @@ CREATE TABLE КлассУч (
 CREATE TABLE СправУч (
  primaryKey UUID NOT NULL,
  Фио VARCHAR(255) NULL,
+ СправРод UUID NOT NULL,
+ КлассУч UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -154,6 +156,12 @@ CREATE TABLE ApplicationLog (
 
  ALTER TABLE СправСотр ADD CONSTRAINT FK16b7a5f6f06361e4bff31f21b8567463326ad9f9 FOREIGN KEY (СправДолж) REFERENCES СправДолж; 
 CREATE INDEX Index16b7a5f6f06361e4bff31f21b8567463326ad9f9 on СправСотр (СправДолж); 
+
+ ALTER TABLE СправУч ADD CONSTRAINT FK192ae19f451f875eaba064911f68eebadadc10af FOREIGN KEY (СправРод) REFERENCES СправРод; 
+CREATE INDEX Index192ae19f451f875eaba064911f68eebadadc10af on СправУч (СправРод); 
+
+ ALTER TABLE СправУч ADD CONSTRAINT FKa68295ddc783f297389148f0d145237efa03c770 FOREIGN KEY (КлассУч) REFERENCES КлассУч; 
+CREATE INDEX Indexa68295ddc783f297389148f0d145237efa03c770 on СправУч (КлассУч); 
 
  ALTER TABLE БазаДанных ADD CONSTRAINT FK3be555298bf1ad8ab7727659ffbdc02b12ff6faf FOREIGN KEY (СправУч) REFERENCES СправУч; 
 CREATE INDEX Index3be555298bf1ad8ab7727659ffbdc02b12ff6faf on БазаДанных (СправУч); 
