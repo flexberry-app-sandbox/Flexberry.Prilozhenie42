@@ -22,25 +22,25 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-42-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-сотр-l.title'),
-            icon: 'chart line',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-уч-l.title'),
-            icon: 'address card',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-долж-l.title'),
-            icon: 'table',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-карт-доступ-l.title'),
-            icon: 'archive',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-42-класс-уч-l',
@@ -52,7 +52,7 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-42-справ-род-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-42.i-i-s-prilozhenie-42-справ-род-l.title'),
-            icon: 'paperclip',
+            icon: 'table',
             children: null
           }]
         }

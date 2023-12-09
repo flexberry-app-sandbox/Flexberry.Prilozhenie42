@@ -50,7 +50,50 @@
           "lookupValue": "Фио Ученика",
           "lookupValueField": "фио Ученика",
           "relationName": "СправУч",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.КлассУч",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "назв",
+                  "caption": "Класс Ученика",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "классУч",
+              "relatedTo": "i-i-s-prilozhenie-42-класс-уч",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.СправРод",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фио",
+                  "caption": "Фио Родителя",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справРод",
+              "relatedTo": "i-i-s-prilozhenie-42-справ-род",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {
