@@ -13,6 +13,15 @@ CREATE TABLE [СправСотр] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [КлассУч] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Назв] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СправУч] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

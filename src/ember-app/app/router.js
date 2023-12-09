@@ -11,6 +11,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie-42-карт-доступ-e/:id' });
   this.route('i-i-s-prilozhenie-42-карт-доступ-e.new',
   { path: 'i-i-s-prilozhenie-42-карт-доступ-e/new' });
+  this.route('i-i-s-prilozhenie-42-класс-уч-l');
+  this.route('i-i-s-prilozhenie-42-класс-уч-e',
+  { path: 'i-i-s-prilozhenie-42-класс-уч-e/:id' });
+  this.route('i-i-s-prilozhenie-42-класс-уч-e.new',
+  { path: 'i-i-s-prilozhenie-42-класс-уч-e/new' });
   this.route('i-i-s-prilozhenie-42-справ-долж-l');
   this.route('i-i-s-prilozhenie-42-справ-долж-e',
   { path: 'i-i-s-prilozhenie-42-справ-долж-e/:id' });

@@ -15,6 +15,17 @@ CREATE TABLE "СправСотр"
 ) ;
 
 
+CREATE TABLE "КлассУч"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Назв" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправУч"
 (
 

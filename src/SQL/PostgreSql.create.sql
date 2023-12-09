@@ -10,6 +10,12 @@ CREATE TABLE СправСотр (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE КлассУч (
+ primaryKey UUID NOT NULL,
+ Назв VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СправУч (
  primaryKey UUID NOT NULL,
  Фио VARCHAR(255) NULL,

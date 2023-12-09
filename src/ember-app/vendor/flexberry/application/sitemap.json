@@ -35,6 +35,13 @@
           "caption": "База Данных",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-42-класс-уч-l",
+          "menuName": null,
+          "caption": "Группа Ученика",
+          "title": "",
+          "children": null
         }
       ]
     }
