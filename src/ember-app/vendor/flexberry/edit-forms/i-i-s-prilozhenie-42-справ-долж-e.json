@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справ долж",
+  "name": "IISPrilozhenie_42СправДолжE",
+  "className": "СправДолжE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-42-справ-долж",
+      "modelProjection": "СправДолжE"
+    }
+  ]
+}

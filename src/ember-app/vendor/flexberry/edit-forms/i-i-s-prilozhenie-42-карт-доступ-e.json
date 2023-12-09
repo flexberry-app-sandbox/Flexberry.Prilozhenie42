@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Карт доступ",
+  "name": "IISPrilozhenie_42КартДоступE",
+  "className": "КартДоступE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-42-карт-доступ",
+      "modelProjection": "КартДоступE"
+    }
+  ]
+}

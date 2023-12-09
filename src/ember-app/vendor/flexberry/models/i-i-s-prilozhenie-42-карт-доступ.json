@@ -1,0 +1,52 @@
+﻿{
+  "name": "IISPrilozhenie_42КартДоступ",
+  "modelName": "i-i-s-prilozhenie-42-карт-доступ",
+  "className": "КартДоступ",
+  "nameSpace": "IIS.Prilozhenie_42",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "справСотр",
+      "relatedTo": "i-i-s-prilozhenie-42-справ-сотр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "базаДанных",
+      "relatedTo": "i-i-s-prilozhenie-42-база-данных",
+      "inverse": "картДоступ"
+    }
+  ],
+  "projections": [
+    {
+      "name": "КартДоступE",
+      "modelName": "i-i-s-prilozhenie-42-карт-доступ",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "БазаДанныхE",
+          "caption": "База Данных",
+          "name": "базаДанных",
+          "relatedTo": "i-i-s-prilozhenie-42-база-данных",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "КартДоступL",
+      "modelName": "i-i-s-prilozhenie-42-карт-доступ",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

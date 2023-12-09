@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Prilozhenie_42",
+  "applicationTitle": "Prilozhenie_42",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie-42",
+      "caption": "Prilozhenie_42",
+      "title": "Prilozhenie_42",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-42-справ-сотр-l",
+          "menuName": null,
+          "caption": "Справочник Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-42-справ-уч-l",
+          "menuName": null,
+          "caption": "Справочник Ученики",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-42-справ-долж-l",
+          "menuName": null,
+          "caption": "Справочник Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-42-карт-доступ-l",
+          "menuName": null,
+          "caption": "База Данных",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

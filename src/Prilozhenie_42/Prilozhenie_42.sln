@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prilozhenie_42.ODataBackend", "ODataBackend/Prilozhenie_42.ODataBackend.csproj", "{605CC5D1-5448-46F5-8D3E-400C035F7E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prilozhenie_42.Objects", "Objects/Prilozhenie_42.Objects.csproj", "{72EA897F-4BEA-49C8-94F7-D491426C81B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605CC5D1-5448-46F5-8D3E-400C035F7E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605CC5D1-5448-46F5-8D3E-400C035F7E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605CC5D1-5448-46F5-8D3E-400C035F7E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605CC5D1-5448-46F5-8D3E-400C035F7E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EA897F-4BEA-49C8-94F7-D491426C81B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EA897F-4BEA-49C8-94F7-D491426C81B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EA897F-4BEA-49C8-94F7-D491426C81B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EA897F-4BEA-49C8-94F7-D491426C81B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

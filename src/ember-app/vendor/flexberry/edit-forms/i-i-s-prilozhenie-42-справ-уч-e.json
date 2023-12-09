@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справ уч",
+  "name": "IISPrilozhenie_42СправУчE",
+  "className": "СправУчE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-42-справ-уч",
+      "modelProjection": "СправУчE"
+    }
+  ]
+}

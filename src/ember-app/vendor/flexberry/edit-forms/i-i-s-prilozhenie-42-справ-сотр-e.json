@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справ сотр",
+  "name": "IISPrilozhenie_42СправСотрE",
+  "className": "СправСотрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-42-справ-сотр",
+      "modelProjection": "СправСотрE"
+    }
+  ]
+}
