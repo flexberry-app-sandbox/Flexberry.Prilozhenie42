@@ -7,6 +7,7 @@ moduleForModel('i-i-s-prilozhenie-42-карт-доступ', 'Unit | Model | i-i
     'model:i-i-s-prilozhenie-42-карт-доступ',
     'model:i-i-s-prilozhenie-42-класс-уч',
     'model:i-i-s-prilozhenie-42-справ-долж',
+    'model:i-i-s-prilozhenie-42-справ-род',
     'model:i-i-s-prilozhenie-42-справ-сотр',
     'model:i-i-s-prilozhenie-42-справ-уч',
     'validator:ds-error',

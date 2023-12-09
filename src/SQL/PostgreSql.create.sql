@@ -42,6 +42,12 @@ CREATE TABLE КартДоступ (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE СправРод (
+ primaryKey UUID NOT NULL,
+ Фио VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE STORMNETLOCKDATA (
  LockKey VARCHAR(300) NOT NULL,
  UserName VARCHAR(300) NOT NULL,

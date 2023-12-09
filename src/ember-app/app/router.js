@@ -21,6 +21,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie-42-справ-долж-e/:id' });
   this.route('i-i-s-prilozhenie-42-справ-долж-e.new',
   { path: 'i-i-s-prilozhenie-42-справ-долж-e/new' });
+  this.route('i-i-s-prilozhenie-42-справ-род-l');
+  this.route('i-i-s-prilozhenie-42-справ-род-e',
+  { path: 'i-i-s-prilozhenie-42-справ-род-e/:id' });
+  this.route('i-i-s-prilozhenie-42-справ-род-e.new',
+  { path: 'i-i-s-prilozhenie-42-справ-род-e/new' });
   this.route('i-i-s-prilozhenie-42-справ-сотр-l');
   this.route('i-i-s-prilozhenie-42-справ-сотр-e',
   { path: 'i-i-s-prilozhenie-42-справ-сотр-e/:id' });
