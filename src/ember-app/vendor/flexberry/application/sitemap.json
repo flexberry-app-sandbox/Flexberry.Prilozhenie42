@@ -49,6 +49,13 @@
           "caption": "Справочник Родители",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-42-расп-прих-l",
+          "menuName": null,
+          "caption": "Расписание Прихода",
+          "title": "",
+          "children": null
         }
       ]
     }

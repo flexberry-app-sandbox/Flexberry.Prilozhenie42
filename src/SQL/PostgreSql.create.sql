@@ -51,6 +51,14 @@ CREATE TABLE СправРод (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE РаспПрих (
+ primaryKey UUID NOT NULL,
+ Урок VARCHAR(255) NULL,
+ ПериодНачала TIMESTAMP(3) NULL,
+ ПериодКонца TIMESTAMP(3) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE STORMNETLOCKDATA (
  LockKey VARCHAR(300) NOT NULL,
  UserName VARCHAR(300) NOT NULL,

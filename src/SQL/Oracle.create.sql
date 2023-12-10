@@ -91,6 +91,21 @@ CREATE TABLE "СправРод"
 ) ;
 
 
+CREATE TABLE "РаспПрих"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Урок" NVARCHAR2(255) NULL,
+
+	"ПериодНачала" DATE NULL,
+
+	"ПериодКонца" DATE NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "STORMNETLOCKDATA"
 (
 

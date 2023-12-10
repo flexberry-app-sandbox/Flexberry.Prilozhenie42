@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_42РаспПрихE",
+  "className": "РаспПрихE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-42-расп-прих",
+      "modelProjection": "РаспПрихE"
+    }
+  ]
+}

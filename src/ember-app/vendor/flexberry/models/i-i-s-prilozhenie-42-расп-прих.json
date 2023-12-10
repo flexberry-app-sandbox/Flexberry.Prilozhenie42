@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISPrilozhenie_42РаспПрих",
+  "modelName": "i-i-s-prilozhenie-42-расп-прих",
+  "className": "РаспПрих",
+  "nameSpace": "IIS.Prilozhenie_42",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "периодКонца",
+      "type": "date",
+      "flexberryType": "NullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "периодНачала",
+      "type": "date",
+      "flexberryType": "NullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "урок",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РаспПрихE",
+      "modelName": "i-i-s-prilozhenie-42-расп-прих",
+      "attrs": [
+        {
+          "name": "урок",
+          "caption": "Урок",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "периодНачала",
+          "caption": "Период Начала",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "периодКонца",
+          "caption": "Период Окончания",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РаспПрихL",
+      "modelName": "i-i-s-prilozhenie-42-расп-прих",
+      "attrs": [
+        {
+          "name": "урок",
+          "caption": "Урок",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "периодНачала",
+          "caption": "Период Начала",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "периодКонца",
+          "caption": "Период Окончания",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

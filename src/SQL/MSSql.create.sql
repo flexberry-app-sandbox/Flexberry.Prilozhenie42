@@ -77,6 +77,19 @@ CREATE TABLE [СправРод] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [РаспПрих] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ПериодКонца] DATETIME  NULL,
+
+	 [ПериодНачала] DATETIME  NULL,
+
+	 [Урок] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [STORMNETLOCKDATA] (
 
 	 [LockKey] VARCHAR(300)  NOT NULL,
