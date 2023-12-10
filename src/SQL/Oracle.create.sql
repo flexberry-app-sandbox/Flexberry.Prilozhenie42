@@ -33,6 +33,8 @@ CREATE TABLE "СправУч"
 
 	"Фио" NVARCHAR2(255) NULL,
 
+	"ДатаРожд" DATE NULL,
+
 	"СправРод" RAW(16) NOT NULL,
 
 	"КлассУч" RAW(16) NOT NULL,

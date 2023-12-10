@@ -31,18 +31,22 @@ namespace IIS.Prilozhenie_42
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправУчE", new string[] {
             "Фио as \'Фио\'",
+            "ДатаРожд as \'Дата Рождения\'",
             "КлассУч as \'Класс Ученика\'",
             "КлассУч.Назв as \'Класс Ученика\'",
             "СправРод as \'Фио Родителя\'",
             "СправРод.Фио as \'Фио Родителя\'"})]
     [View("СправУчL", new string[] {
             "Фио as \'Фио\'",
+            "ДатаРожд as \'Дата Рождения\'",
             "КлассУч.Назв as \'Класс Ученика\'",
             "СправРод.Фио as \'Фио Родителя\'"})]
     public class СправУч : ICSSoft.STORMNET.DataObject
     {
         
         private string fФио;
+        
+        private System.DateTime fДатаРожд;
         
         private IIS.Prilozhenie_42.СправРод fСправРод;
         
@@ -52,6 +56,37 @@ namespace IIS.Prilozhenie_42
 
         // *** End programmer edit section *** (СправУч CustomMembers)
 
+        
+        /// <summary>
+        /// ДатаРожд.
+        /// </summary>
+        // *** Start programmer edit section *** (СправУч.ДатаРожд CustomAttributes)
+
+        // *** End programmer edit section *** (СправУч.ДатаРожд CustomAttributes)
+        public virtual System.DateTime ДатаРожд
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СправУч.ДатаРожд Get start)
+
+                // *** End programmer edit section *** (СправУч.ДатаРожд Get start)
+                System.DateTime result = this.fДатаРожд;
+                // *** Start programmer edit section *** (СправУч.ДатаРожд Get end)
+
+                // *** End programmer edit section *** (СправУч.ДатаРожд Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СправУч.ДатаРожд Set start)
+
+                // *** End programmer edit section *** (СправУч.ДатаРожд Set start)
+                this.fДатаРожд = value;
+                // *** Start programmer edit section *** (СправУч.ДатаРожд Set end)
+
+                // *** End programmer edit section *** (СправУч.ДатаРожд Set end)
+            }
+        }
         
         /// <summary>
         /// Фио.

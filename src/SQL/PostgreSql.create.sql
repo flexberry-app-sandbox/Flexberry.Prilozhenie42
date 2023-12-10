@@ -19,6 +19,7 @@ CREATE TABLE КлассУч (
 CREATE TABLE СправУч (
  primaryKey UUID NOT NULL,
  Фио VARCHAR(255) NULL,
+ ДатаРожд TIMESTAMP(3) NULL,
  СправРод UUID NOT NULL,
  КлассУч UUID NOT NULL,
  PRIMARY KEY (primaryKey));

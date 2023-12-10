@@ -26,6 +26,8 @@ CREATE TABLE [СправУч] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [ДатаРожд] DATETIME  NULL,
+
 	 [Фио] VARCHAR(255)  NULL,
 
 	 [КлассУч] UNIQUEIDENTIFIER  NOT NULL,
